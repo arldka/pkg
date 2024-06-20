@@ -1,4 +1,4 @@
-module github.com/fluxcd/pkg/kustomize
+module github.com/arldka/pkg/kustomize
 
 go 1.22.0
 
@@ -11,6 +11,7 @@ replace (
 require (
 	github.com/fluxcd/pkg/apis/kustomize v1.5.0
 	github.com/fluxcd/pkg/envsubst v1.1.0
+	github.com/fluxcd/pkg/kustomize v1.11.0
 	github.com/fluxcd/pkg/sourceignore v0.7.0
 	github.com/go-git/go-git/v5 v5.12.0
 	github.com/onsi/gomega v1.33.1
